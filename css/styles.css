@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  background: url("../img/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.fullPageContainer {
+  margin: 0 auto;
+  width: 85%;
+  height: 2000px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Navigation ---------------------*/
+
+
+.nav {
+  height: 300px;
+  position: fixed;
+}
+
+.nav img {
+  width: 50%;
+  opacity: .4;
+}
+
+.nav ul {
+  overflow: auto;
+  float: right;
+  color: white;
+  width: 30%;
+  margin-right: 12%;
+}
+
+.nav li {
+  float: left;
+  list-style-type: none;
+  margin: 23% 0 10% 5%;
+  opacity: .6;
+  width: 25%;
+  font-size: 1.5em;
+}
+
+/* description -------------------------*/
+
+.description {
+  float: left;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  width: 58%;
+  color: white;
+  margin: 25% 0 10% 0;
+  padding: 5% 5% 2% 0;
+}
+
+/* gallery -------------------------*/
+.facesHeading {
+  clear: both;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20%;
+}
+.imageGallery {
+  float: left;
+  margin: 0 auto;
+  clear: both;
+  padding-left: 5%;
+}
+
+.imageGallery img {
+  width: 25%;
+  max-width: 200px;
+  border-radius: 50%;
+  opacity: .75;
+  margin: 1%;
+}
+
+.imageGallery img:hover {
+  width: 28%;
+}
