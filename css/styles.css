@@ -131,7 +131,7 @@ a {
     padding-right: 10%;
     padding-bottom: 0;
     margin-bottom: 0;
-    margin-top: 12%;
+    margin-top: 20%;
   }
 
   .imageGallery {
@@ -148,7 +148,7 @@ a {
     overflow: auto;
     width: 100%;
     display: block;
-    padding-top: 180px;
+    padding-top: 230px;
     margin: 0 auto;
   }
   .nav a li {
@@ -160,5 +160,9 @@ a {
   .description {
     width: 85%;
     margin: 0 auto;
+  }
+
+  .quote {
+    width: 65%;
   }
 }
